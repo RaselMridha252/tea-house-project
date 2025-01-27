@@ -6,25 +6,27 @@
     <title>Tea House</title>
     <!-- manorpe google font cdm-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- font awesome cdm-->
     <script src="https://kit.fontawesome.com/0d7e9eb10e.js" crossorigin="anonymous"></script>
     <!-- tailwind cdm -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          fontFamily:{
-            'Manrope':["Manrope", 'serif';]
-          }
+          
+          
           theme: {
             extend: {
               colors: {
                 clifford: '#da373d',
+                fontFamily:{
+                  'Manrope':['Manrope', 'serif';]
               }
             }
           }
         }
+      }
       </script>
 </head>
 <body class="font-manrope">
@@ -141,6 +143,21 @@
 
             </div>
           </section>
+
+          <!-- Meet Our Super Clients section -->
+           <section class="my-32">
+            <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg
+             lg:mx-56 mx-7 grid grid-cols-1 lg:grid-cols-2">
+
+             <!-- text section -->
+              <div class="my-36 ml-16">
+              <h2 class="font-extrabold text-5xl text-[#F4F4F4]">Meet Our Super Clients</h2>
+                <p class="font-medium text-base text-[#F4F4F4] mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="bg-white rounded-lg py-4 px-7 mt-7 text-orange-700 font-bold text-lg">Show All</button>
+              </div>
+
+            </div>
+           </section>
 
         
       </body>
